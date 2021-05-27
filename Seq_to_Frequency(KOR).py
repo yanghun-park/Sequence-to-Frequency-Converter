@@ -91,7 +91,7 @@ def main():
     outputFile = open(freqFile, 'w')
 
     for line in frequency_Result:
-        outputFile.write(line);
+        outputFile.write(line + "\n");
 
     outputFile.close()
 
